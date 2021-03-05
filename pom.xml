@@ -18,7 +18,9 @@
 		<dep.version.validation-api>2.0.1.Final</dep.version.validation-api>
 		<dep.version.guava>30.1-jre</dep.version.guava>
 		<dep.version.commons.collections4>4.3</dep.version.commons.collections4>
-		<dep.version.mapstruct>1.4.1.Final</dep.version.mapstruct>
+		<dep.version.mapstruct>1.4.2.Final</dep.version.mapstruct>
+		<dep.version.github>0.0.1</dep.version.github>
+		<dep.version.lombok>1.18.6</dep.version.lombok>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -70,7 +72,8 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<optional>true</optional>
+			<version>${dep.version.lombok}</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -83,6 +86,11 @@
             <version>3.18.1</version>
             <scope>compile</scope>
         </dependency>
+		<dependency>
+			<groupId>com.github.zaza</groupId>
+			<artifactId>lib-common</artifactId>
+			<version>${dep.version.github}</version>
+		</dependency>
     </dependencies>
 
 	<build>
