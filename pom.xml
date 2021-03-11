@@ -21,6 +21,7 @@
 		<dep.version.mapstruct>1.4.2.Final</dep.version.mapstruct>
 		<dep.version.github>0.0.1</dep.version.github>
 		<dep.version.lombok>1.18.18</dep.version.lombok>
+		<dep.version.lombok.mapstruct>0.2.0</dep.version.lombok.mapstruct>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -73,6 +74,12 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>${dep.version.lombok}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId> lombok-mapstruct-binding</artifactId>
+			<version>${dep.version.lombok.mapstruct}</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
