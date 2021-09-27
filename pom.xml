@@ -16,7 +16,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<dep.version.validation-api>2.0.1.Final</dep.version.validation-api>
-		<dep.version.guava>30.1-jre</dep.version.guava>
+		<dep.version.guava>31.0.1-jre</dep.version.guava>
 		<dep.version.commons.collections4>4.4</dep.version.commons.collections4>
 		<dep.version.mapstruct>1.4.2.Final</dep.version.mapstruct>
 		<dep.version.github>0.0.1</dep.version.github>
